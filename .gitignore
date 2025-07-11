@@ -1,16 +1,59 @@
-# Node.js
+# Node modules
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-package-lock.json
-.env
-
-# Typescript
-*.tsbuildinfo
 
 # Logs
-logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs/
 
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.out/
+web-build/
+.expo/
+.expo-shared/
+
+# Metro/Babel/React Native cache
+.cache/
+tmp/
+*.tmp
+babel.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+.history/
+
+# IDEs
+.idea/
+*.iml
+
+# React Native Android/iOS (if ejecting later)
+android/
+ios/
+*.keystore
+*.jks
+
+# Coverage
+coverage/
+
+# Expo assets cache
+assets/
+
+# Misc
+*.swp
+*.swo
